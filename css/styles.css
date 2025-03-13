@@ -1,16 +1,29 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Styles for the body */
 
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Atma:wght@300;400;500;600;700&family=Gayathri:wght@100;400;700&family=Lexend+Peta:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Simonetta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Atma:wght@300;400;500;600;700&family=Bebas+Neue&family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gayathri:wght@100;400;700&family=Inconsolata:wght@200..900&family=Lexend+Peta:wght@100..900&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Simonetta&display=swap');
+
 body {
-  font-family: "Gayathri", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Lexend Peta", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 	}
+
+h2 {
+  font-family: "Gayathri", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
